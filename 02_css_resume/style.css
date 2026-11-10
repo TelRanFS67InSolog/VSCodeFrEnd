@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: rgb(78, 85, 136);
+    font-style: italic;
+
+}
+
+p {
+    color: solid black;
+    text-align: justify
+}
+
+h2 {
+    color: #747384;
+    font-style: italic;
+}
+
+li {
+    font-style: italic;
+    text-align: justify;
+}
+
+#edu {
+    font-style: normal;
+}
+
+table,
+td,
+th {
+    border: 1px solid rgb(184, 181, 181);
+    border-collapse: collapse;
+    width: 200px;
+    text-align: center;
+    color: #2d2d38;
+    font-style: italic;
+}
+
+.two-columns-block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.column:nth-child(2) {
+    transform: translateY(40px);
+}
+
+#hired {
+    width: 50px;
+}

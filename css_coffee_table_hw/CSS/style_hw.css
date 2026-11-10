@@ -1,0 +1,59 @@
+body{ 
+    background-color: whitesmoke;
+    font-family: "Raleway", sans-serif;
+
+}
+
+.header{
+    height: 400px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-size: cover;
+    background-position: center;
+    padding-top: 50px;
+    box-sizing: border-box;
+}
+
+.header>h1{
+    font-size: 90px;
+    font-family: "Covered By Your Grace", cursive;
+    color: rgb(130,130,90,0.8);
+    text-align:center;
+   /* padding-top: 130px;*/
+   
+}
+
+td{
+
+    vertical-align: top;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e4be97;
+    
+}
+
+.main h2{
+    padding-top: 55px;
+    height: 100px;
+    font-size:28px;
+    font-weight: 600px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: #aa8eb5;
+    text-transform: uppercase;
+}
+
+.main p{
+    color: #454;
+    font-weight: 500;
+    padding: 0 5px;
+    text-align: justify;
+    line-height: 1.5;
+    text-indent: 32px;
+}
+
+.main a{
+    color: #214e34;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
