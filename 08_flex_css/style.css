@@ -1,0 +1,36 @@
+.flex-container {
+    width: 900px;
+    height: 400px;
+    background-color: pink;
+    margin: 0;
+    display: flex;
+flex-wrap: wrap;
+/*flex-direction: column;*/
+justify-content: space-evenly;
+align-items: baseline;
+align-content: space-evenly;
+}
+
+
+.item.large{
+    height: 175px;
+    font-size: 5rem;
+    order:20
+}
+
+.item.small{
+    height: 125px;
+    font-size: 2rem;
+    order: 30;
+    align-self: flex-start;
+}
+.item {
+    height: 150px;
+    width: 250px;
+    background-color: blue;
+    font-size: 3rem;
+    text-align: center;
+    color: whitesmoke;
+    order:0;
+
+}
