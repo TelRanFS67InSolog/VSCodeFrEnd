@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poller+One&display=swap');
+ /*Global styles*/
+/** {
+    margin: 0;
+}*/
+:root{
+    --color-main:#ffc500;
+    --bg-color-grey: rgba(68,69,67,0.6);
+    --bg-color-red: rgba(204,3,35,0.5);
+}
+
+body {
+    font-family: "Poller One", sans-serif;
+    background-image: url("../Images//sky.jpg");
+    color: var(--color-main);
+    background-attachment: fixed;
+}
+
+header,
+footer {
+    background-color: var(--bg-color-grey);
+}
+/* Headedr*/
+/* /*Main*/
+.float-start > img{
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
+}
+/* .left img {
+    width: 100%;
+    box-shadow: 0.6rem 0.6rem 0.6rem gray;
+}
+
+.right {
+    float: right;
+    width: 50%;
+    border: 1px solid #ffc500;
+    margin: 0.3rem 0 0 0.6rem;
+    border-radius: 0 0 16px 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.right h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.right img {
+    width: 32.5%;
+}
+*/
+.far-galaxy {
+    /* font-size: 1.8rem;
+    line-height: 1.5; */
+    letter-spacing: 0.1em;  
+    text-align: justify;
+}
+
+.rounded-bottom-left {
+    border-bottom-left-radius: 2rem;
+}
+
+.rounded-bottom-right {
+    border-bottom-right-radius: 2rem;
+}
+
+
+/*Footer*/
+footer{
+    height: 6rem;
+}
+/* footer {
+    clear: both;
+    height: 6rem;
+    border-radius: 0 0 16px 16px;
+    position: relative;
+}
+footer > .button {
+    position: absolute;
+    top: 40%;
+    left: 25%;
+} */
+
+/*Customization*/
+.btn-danger{
+    background-color: var(--bg-color-red);
+    border-color: var(--color-main);
+    color: var(--color-main);
+}
+
